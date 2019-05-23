@@ -6,4 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/btnLanzarNotificacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lanzar_notificacion"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:onClick="lanzarNotificacion"/>
+
+
 </android.support.constraint.ConstraintLayout>
